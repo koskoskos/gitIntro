@@ -8,10 +8,9 @@ public class PetMaster {
     String petReaction;
     Pet myPet = new Pet();
     myPet.eat();
-    petReaction = myPet.talk("Tweet Tweet!!");
+    petReaction = myPet.talk("Tweet!! Tweet!!");
         System.out.println(petReaction);
         myPet.sleep();
 
     }
-
 }
